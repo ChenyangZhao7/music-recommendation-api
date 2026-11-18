@@ -1,5 +1,7 @@
 # Music Recommendation API
 
+**English** | [中文](README.zh-CN.md)
+
 A data-driven RESTful API for music discovery and personalised recommendations,
 built with FastAPI and SQLite.
 
@@ -167,3 +169,7 @@ real `music.db` is never touched.
 - No refresh tokens, token revocation, or login rate limiting.
 - No Alembic migrations; schema changes require recreating `music.db`.
 - `CORS` is wide open (`*`) for local development.
+
+## License
+
+MIT
